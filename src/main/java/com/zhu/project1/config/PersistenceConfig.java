@@ -8,8 +8,8 @@ import javax.sql.DataSource;
 
 @Configuration
 public class PersistenceConfig {
-    @Bean
-    public DataSource dataSource() {
-        return DataSourceBuilder.create().url("jdbc:postgresql://localhost:5432/conference_app").build();
-    }
+//    @Bean
+//    public DataSource dataSource() {
+//        return DataSourceBuilder.create().url("jdbc:postgresql://localhost:5432/conference_app").build();
+//    }
 }
